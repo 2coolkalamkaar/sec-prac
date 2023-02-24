@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Webpage</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: peach;
+        color: #333333;
+      }
+      h1 {
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+        color: #0099cc;
+      }
+      h2 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #9900cc;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: normal;
+        color: #666666;
+        text-align: justify;
+      }
+      .blink {
+        animation: blinker 1s linear infinite;
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Webpage</h1>
+    <h2>Introduction</h2>
+    <p>This is a sample webpage that demonstrates various formatting options.</p>
+    <h2>Text Formatting</h2>
+    <p>This text is <b>bold</b>, <i>italic</i>, and <u>underlined</u>.</p>
+    <p>This text is in <font color="#ff0000">red</font>, and this text is in <font color="#00ff00">green</font>.</p>
+    <h2>Font and Background</h2>
+    <p>This text is in a different <font face="Courier New" size="4">font</font> and is <font size="5" color="#0000ff">larger</font> than the rest of the text. The background color of this paragraph is <span style="background-color:#ffff00;">yellow</span>.</p>
+    <h2>Line Breaks and Horizontal Line</h2>
+    <p>This is some text.<br/>This is on a new line.</p>
+    <hr/>
+    <p>This is some more text.</p>
+    <h2>Blinking and Marquee Text</h2>
+    <p class="blink">This text is blinking.</p>
+    <marquee>This text is scrolling.</marquee>
+  </body>
+</html>
+# second wa;la
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Webpage</title>
+    <style >
+    h1{
+      font-style: bold;
+    }
+      
+    </style>
+  </head>
+  <body>
+    <h1>My Webpage</h1>
+    <h2>Introduction</h2>
+    <p>Welcome to my webpage!</p>
+    <h2>Lists</h2>
+    <ul>
+      <li>Item 1</li>
+       <ol>
+         <li>
+           ek number
+         </li>
+       </ul>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+    <ol>
+      <li>First item</li>
+      <li>Second item</li>
+      <li>Third item</li>
+    </ol>
+    <h2>Images</h2>
+    <p>Here is an image of a cat:</p>
+    <img src="https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634_960_720.png" alt="A cat" width="200">
+    <h2>Internal Linking</h2>
+    <p>Here's a <a href="#section-2">link</a> to section 2 of this page.</p>
+    <h2>External Linking</h2>
+    <p>Check out my <a href="https://www.linkedin.com/in/example">LinkedIn profile</a>!</p>
+    <h2>Conclusion</h2>
+    <p>Thanks for visiting my webpage!</p>
+  </body>
+</html>
+#tables<!DOCTYPE html>
+<html>
+  <head>
+    <title>Current Semester's Time Table</title>
+  </head>
+  <body>
+    <h1>Current Semester's Time Table</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Time/Day</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>9:00-10:00 AM</td>
+          <td>Mathematics</td>
+          <td>English</td>
+          <td>Physics</td>
+          <td>Chemistry</td>
+          <td>Computer Science</td>
+          <td>Sports</td>
+        </tr>
+        <tr>
+          <td>10:00-11:00 AM</td>
+          <td>Physics</td>
+          <td>Mathematics</td>
+          <td>English</td>
+          <td>Chemistry</td>
+          <td>Computer Science</td>
+          <td>Sports</td>
+        </tr>
+        <tr>
+          <td>11:00-12:00 PM</td>
+          <td>Chemistry</td>
+          <td>Physics</td>
+          <td>Mathematics</td>
+          <td>English</td>
+          <td>Computer Science</td>
+          <td>Sports</td>
+        </tr>
+        <tr>
+          <td>12:00-1:00 PM</td>
+          <td>English</td>
+          <td>Chemistry</td>
+          <td>Physics</td>
+          <td>Mathematics</td>
+          <td>Computer Science</td>
+          <td>Sports</td>
+        </tr>
+        <tr>
+          <td>2:00-3:00 PM</td>
+          <td>Computer Science</td>
+          <td>Sports</td>
+          <td>Chemistry</td>
+          <td>Physics</td>
+          <td>Mathematics</td>
+          <td>English</td>
+        </tr>
+        <tr>
+          <td>3:00-4:00 PM</td>
+          <td>Sports</td>
+          <td>Computer Science</td>
+          <td>English</td>
+          <td>Chemistry</td>
+          <td>Physics</td>
+          <td>Mathematics</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
+#registration form
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Registration Form</title>
+    <style>
+      /* CSS styles for the form */
+      form {
+        width: 80%;
+        margin: auto;
+        font-family: Arial, sans-serif;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      input[type="text"],
+      select {
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+      }
+
+      select {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: url("dropdown-arrow.svg") no-repeat;
+        background-position: right center;
+      }
+
+      input[type="radio"],
+      input[type="checkbox"] {
+        margin-right: 10px;
+      }
+
+      button[type="reset"],
+      button[type="submit"] {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      button[type="reset"] {
+        background-color: #ccc;
+        margin-right: 10px;
+      }
+
+      button[type="submit"] {
+        background-color: #4caf50;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Student Registration Form</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" />
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" placeholder="Enter your email" />
+
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <br />
+
+      <label for="course">Course:</label>
+      <select id="course" name="course">
+        <option value="">Select a course</option>
+        <option value="maths">Mathematics</option>
+        <option value="science">Science</option>
+        <option value="history">History</option>
+      </select>
+
+      <label for="interests">Interests:</label>
+      <input type="checkbox" id="interests1" name="interests" value="coding" />
+      <label for="interests1">Coding</label>
+      <input type="checkbox" id="interests2" name="interests" value="music" />
+      <label for="interests2">Music</label>
+      <input type="checkbox" id="interests3" name="interests" value="sports" />
+      <label for="interests3">Sports</label>
+      <br />
+
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+#college website
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>College Website</title>
+    <style>
+      /* CSS styles for the layout */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: #eee;
+        width: 20%;
+        float: left;
+        height: calc(100vh - 70px);
+        overflow-y: auto;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav li {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+      }
+
+      nav li a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      main {
+        float: left;
+        width: 80%;
+        height: calc(100vh - 70px);
+        overflow-y: auto;
+        padding: 20px;
+      }
+
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>College Name</h1>
+      <img src="college-logo.png" alt="College Logo" />
+    </header>
+    <nav>
+      <ul>
+        <li><a href="faculty.html" target="content">Faculty</a></li>
+        <li><a href="courses.html" target="content">Courses</a></li>
+        <li><a href="student-activities.html" target="content">Student Activities</a></li>
+      </ul>
+    </nav>
+    <main>
+      <iframe name="content"></iframe>
+    </main>
+  </body>
+</html>
+
+#department 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Department Website</title>
+    <style>
+      /* CSS styles for the layout */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: #eee;
+        padding: 10px;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav li {
+        padding: 10px;
+        position: relative;
+      }
+
+      nav li:hover > ul {
+        display: block;
+      }
+
+      nav a {
+        color: #333;
+        text-decoration: none;
+        display: block;
+      }
+
+      nav ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #eee;
+        border: 1px solid #ccc;
+        z-index: 1;
+      }
+
+      nav ul ul li {
+        display: block;
+        min-width: 200px;
+      }
+
+      nav ul ul a {
+        padding: 10px;
+      }
+
+      main {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Department Name</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#">Faculty</a>
+          <ul>
+            <li><a href="#">Professor A</a></li>
+            <li><a href="#">Professor B</a></li>
+            <li><a href="#">Professor C</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Courses</a>
+          <ul>
+            <li><a href="#">Course A</a></li>
+            <li><a href="#">Course B</a></li>
+            <li><a href="#">Course C</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Activities</a>
+          <ul>
+            <li><a href="#">Activity A</a></li>
+            <li><a href="#">Activity B</a></li>
+            <li><a href="#">Activity C</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Welcome to the Department Website</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales ex
+        at purus finibus, ac ultricies est faucibus. Nunc ultricies risus quis
+        turpis volutpat, vitae commodo libero consectetur. Maecenas facilisis
+        suscipit nibh, vel iaculis lacus tristique sit amet.
+      </p>
+    </main>
+  </body>
+</html>
+
+#js ka
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Registration Form</title>
+    <style>
+      /* CSS styles for the form */
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+      }
+
+      input[type="submit"],
+      input[type="reset"] {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover,
+      input[type="reset"]:hover {
+        background-color: #3e8e41;
+      }
+
+      .error {
+        color: red;
+        font-size: 0.8em;
+        margin-top: 5px;
+      }
+    </style>
+    <script>
+      function validateForm() {
+        // Get form elements
+        var rollno = document.forms["registration"]["rollno"].value;
+        var name = document.forms["registration"]["name"].value;
+        var email = document.forms["registration"]["email"].value;
+        var dob = document.forms["registration"]["dob"].value;
+        var gender = document.forms["registration"]["gender"].value;
+        var courses = document.forms["registration"]["courses"].value;
+        var terms = document.forms["registration"]["terms"].checked;
+
+        // Roll no validation
+        var rollnoRegExp = /^\d{7}$/;
+        if (!rollnoRegExp.test(rollno)) {
+          document.getElementById("rollno-error").innerHTML =
+            "Roll number must be a 7-digit numeric value";
+          return false;
+        } else {
+          document.getElementById("rollno-error").innerHTML = "";
+        }
+
+        // Name validation
+        var nameRegExp = /^[a-zA-Z ]+$/;
+        if (!nameRegExp.test(name)) {
+          document.getElementById("name-error").innerHTML =
+            "Name must be an alphabetical value";
+          return false;
+        } else {
+          document.getElementById("name-error").innerHTML = "";
+        }
+
+        // Email validation
+        var emailRegExp = /^\S+@\S+\.\S+$/;
+        if (!emailRegExp.test(email)) {
+          document.getElementById("email-error").innerHTML =
+            "Please enter a valid email address";
+          return false;
+        } else {
+          document.getElementById("email-error").innerHTML = "";
+        }
+
+        // Date of birth validation
+        if (dob == "") {
+          document.getElementById("dob-error").innerHTML =
+            "Please enter your date of birth";
+          return false;
+        } else {
+          document.getElementById("dob-error").innerHTML = "";
+        }
+
+        // Gender validation
+        if (gender == "") {
+          document.getElementById("gender-error").innerHTML =
+            "Please select your gender";
+          return false;
+        } else {
+          document.getElementById("gender-error").innerHTML = "";
+        }
+
+        // Courses validation
+        if (courses == "") {
+          document.getElementById("courses-error").innerHTML =
+            "Please select at least one course";
+          return false;
+        } else {
+          document.getElementById("courses-error").innerHTML = "";
+        }
+
+        // Terms and conditions validation
+        if (!terms) {
+          document.getElementById("terms-error").innerHTML =
+            "You must agree to the terms and conditions";
+            
+    #last wala 
+    <!DOCTYPE html>
+<html>
+  <head>
+    <title>Largest Number</title>
+  </head>
+  <body>
+    <h1>Largest Number</h1>
+    <label for="num1">Enter number 1:</label>
+    <input type="number" id="num1">
+    <br>
+    <label for="num2">Enter number 2:</label>
+    <input type="number" id="num2">
+    <br>
+    <label for="num3">Enter number 3:</label>
+    <input type="number" id="num3">
+    <br>
+    <button onclick="findLargest()">Find Largest Number</button>
+    <br>
+    <p id="result"></p>
+    <script>
+      function findLargest() {
+        var num1 = parseInt(document.getElementById("num1").value);
+        var num2 = parseInt(document.getElementById("num2").value);
+        var num3 = parseInt(document.getElementById("num3").value);
+
+        var largest = num1;
+        if (num2 > largest) {
+          largest = num2;
+        }
+        if (num3 > largest) {
+          largest = num3;
+        }
+
+        document.getElementById("result").innerHTML = "The largest number is " + largest;
+      }
+    </script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Factorial</title>
+  </head>
+  <body>
+    <h1>Factorial</h1>
+    <label for="number">Enter a number:</label>
+    <input type="number" id="number">
+    <button onclick="findFactorial()">Find Factorial</button>
+    <br>
+    <p id="result"></p>
+    <script>
+      function findFactorial() {
+        var num = parseInt(document.getElementById("number").value);
+
+        var factorial = 1;
+        for (var i = 1; i <= num; i++) {
+          factorial *= i;
+        }
+
+        document.getElementById("result").innerHTML = "The factorial of " + num + " is " + factorial;
+      }
+    </script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sum and Average</title>
+  </head>
+  <body>
+    <h1>Sum and Average</h1>
+    <button onclick="findSumAndAvg()">Enter Numbers</button>
+    <br>
+    <p id="result"></p>
+    <script>
+      function findSumAndAvg() {
+        var sum = 0;
+        var count = 0;
+        var input = prompt("Enter a positive number (terminate with zero):");
+        while (input !== "0") {
+          var num = parseInt(input);
+          if (num > 0) {
+            sum += num;
+            count++;
+          }
+          input = prompt("Enter a positive number (terminate with zero):");
+        }
+
+        var average = sum / count;
+
+        document.getElementById("result").innerHTML = "The sum is " + sum + " and the average is " + average;
+      }
+    </script>
+  </body>
+</html
+
+<input type="number" id="inputNumber">
+<button id="submitButton">Print Multiplication Table</button>
+<div id="output"></div>
+const inputNumber = document.getElementById("inputNumber");
+const submitButton = document.getElementById("submitButton");
+const output = document.getElementById("output");
+
+submitButton.addEventListener("click", () => {
+  const number = Number(inputNumber.value);
+  if (isNaN(number)) {
+    output.textContent = "Please enter a valid number";
+  } else {
+    output.textContent = "";
+    for (let i = 1; i <= 10; i++) {
+      const result = i * number;
+      output.textContent += `${number} x ${i} = ${result}\n`;
+    }
+  }
+});
+
+
+
